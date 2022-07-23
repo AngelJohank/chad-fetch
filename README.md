@@ -1,4 +1,4 @@
-# Chad Fetch [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+# Chad Fetch [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/AngelJohank/chad-fetch/blob/main/LICENCE)
 
 A **Giga Chad** version of **fetch**
 
