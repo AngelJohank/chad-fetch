@@ -1,4 +1,4 @@
-# Chad Fetch [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square)](https://github.com/AngelJohank/chad-fetch/blob/main/LICENCE) ![Code Coverage](https://shields.io/badge/coverage-70%25-brightgreen/?style=flat-square&logo=appveyor)
+# Chad Fetch [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square)](https://github.com/AngelJohank/chad-fetch/blob/main/LICENCE) ![Code Coverage](https://img.shields.io/badge/coverage-70%25-green/?style=flat-square)
 
 A **Giga Chad** version of **fetch**
 
