@@ -23,8 +23,5 @@ export async function get<T>(url: string, params?: Params) {
   const res = await fetch(link.href)
   const parsedRes: T = await res.json()
 
-  return {
-    statusCode: res.status,
-    response: parsedRes,
-  }
+  return { response: parsedRes }
 }

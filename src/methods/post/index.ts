@@ -21,8 +21,5 @@ export async function post<T>(url: string, data: unknown) {
   const res = await fetch(url, { method: 'POST', ...params })
   const parsedRes: T = await res.json()
 
-  return {
-    statusCode: res.status,
-    response: parsedRes,
-  }
+  return { response: parsedRes }
 }
