@@ -1,7 +1,7 @@
 {
   "name": "chad-fetch",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A **Giga Chad** version of **fetch**",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
@@ -12,5 +12,16 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelJohank/rest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AngelJohank/rest/issues"
+  },
+  "homepage": "https://github.com/AngelJohank/rest#readme"
 }
