@@ -15,10 +15,18 @@ Install my-project with npm
 
 ## Usage
 
-```javascript
+```typescript
   import chad from 'chad-fetch'
 
-  // chat.get(url, queryParams)
-  chad.get("https://rickandmortyapi.com/api/character", { page: 1 })
+  // chat.get(url, queryParams) returns T
+  chad.get<T>("https://rickandmortyapi.com/api/character", { page: 1 })
       .then(res => console.log(res))
+
+
+  // chat.post(url, data) returns T | currently only supports objects  
+  chat.post<T>('https://jsonplaceholder.typicode.com/posts', {
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+  }).then(res => console.log(res))
 ```
