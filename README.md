@@ -15,12 +15,12 @@ A **tiny** version of **fetch** (not a pollyfill)
 ```typescript
 import fetch from 'chad-fetch'
 
-// chat.get(url, queryParams?) returns T
+// fetch.get(url, queryParams?) returns T
 fetch
   .get<T>('https://rickandmortyapi.com/api/character', { page: 1 })
   .then(res => console.log(res))
 
-// chat.post(url, data) returns T | only uploads objects
+// fetch.post(url, data) returns T | only uploads objects
 fetch
   .post<T>('https://jsonplaceholder.typicode.com/posts', {
     title: 'foo',
