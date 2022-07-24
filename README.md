@@ -1,6 +1,6 @@
 # Chad Fetch [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square)](https://github.com/AngelJohank/chad-fetch/blob/main/LICENCE) ![Code Coverage](https://img.shields.io/badge/coverage-100%25-green/?style=flat-square)
 
-A **Giga Chad** version of **fetch**
+A **tiny** version of **fetch** (not a pollyfill)
 
 ![Logo](https://cdn3.emoji.gg/emojis/8748_gigachad.png)
 
