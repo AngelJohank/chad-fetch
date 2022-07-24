@@ -1,11 +1,11 @@
 import { jsonParams } from './utils'
 
 /**
- * **ONLY WORKS WITH OBJECTS FOR NOW |**
+ * **CURRENTLY ONLY SUPPORTS OBJECTS |**
  * Function that makes an HTTP.POST request
  * @param url
  * @param data
- * @example rest.post<Movie>('url-to-Movie/post', { title: 'movie title', desc: 'description' })
+ * @example get.post<Movie>('movie-url/api/post', { title: 'movie title', desc: 'description' })
  */
 export async function post<T>(url: string, data: unknown) {
   // check if data exist

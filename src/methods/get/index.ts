@@ -6,7 +6,7 @@ type Params = {
  * Function that makes an HTTP.GET request
  * @param url
  * @param queries
- * @example rest.get<Movies>('url-To-Movies', { page: 1 })
+ * @example fetch.get<Movies>('movie-url/api/get', { page: 1 })
  */
 export async function get<T>(url: string, params?: Params) {
   // Generate URL object
