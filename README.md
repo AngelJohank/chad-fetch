@@ -2,7 +2,6 @@
 
 A **Giga Chad** version of **fetch**
 
-
 ![Logo](https://cdn3.emoji.gg/emojis/8748_gigachad.png)
 
 ## Installation
@@ -16,17 +15,19 @@ Install my-project with npm
 ## Usage
 
 ```typescript
-  import chad from 'chad-fetch'
+import fetch from 'chad-fetch'
 
-  // chat.get(url, queryParams) returns T
-  chad.get<T>("https://rickandmortyapi.com/api/character", { page: 1 })
-      .then(res => console.log(res))
+// chat.get(url, queryParams) returns T
+fetch
+  .get<T>('https://rickandmortyapi.com/api/character', { page: 1 })
+  .then(res => console.log(res))
 
-
-  // chat.post(url, data) returns T | currently only supports objects  
-  chat.post<T>('https://jsonplaceholder.typicode.com/posts', {
+// chat.post(url, data) returns T | currently only supports objects
+fetch
+  .post<T>('https://jsonplaceholder.typicode.com/posts', {
     title: 'foo',
     body: 'bar',
     userId: 1,
-  }).then(res => console.log(res))
+  })
+  .then(res => console.log(res))
 ```
