@@ -17,7 +17,7 @@ Install my-project with npm
 ```typescript
 import fetch from 'chad-fetch'
 
-// chat.get(url, queryParams) returns T
+// chat.get(url, queryParams?) returns T
 fetch
   .get<T>('https://rickandmortyapi.com/api/character', { page: 1 })
   .then(res => console.log(res))
