@@ -20,5 +20,5 @@ Install my-project with npm
 
   // chat.get(url, queryParams)
   chad.get("https://rickandmortyapi.com/api/character", { page: 1 })
-      .then(res => console.log(res.response))
+      .then(res => console.log(res))
 ```
