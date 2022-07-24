@@ -6,8 +6,6 @@ A **Giga Chad** version of **fetch**
 
 ## Installation
 
-Install my-project with npm
-
 ```bash
   npm install chad-fetch
 ```
