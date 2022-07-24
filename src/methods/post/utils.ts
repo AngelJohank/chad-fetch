@@ -1,11 +1,11 @@
-import { Params } from './post.types'
+const paramsTemplate = {
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json; charset=UTF-8',
+  },
+  body: '',
+}
 
-export function jsonParams(data: object): Params {
-  return {
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json; charset=UTF-8',
-    },
-    body: JSON.stringify(data),
-  }
+export function jsonParams(data: object) {
+  return { ...paramsTemplate, body: JSON.stringify(data) }
 }

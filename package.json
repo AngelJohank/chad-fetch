@@ -1,6 +1,6 @@
 {
   "name": "chad-fetch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A **Giga Chad** version of **fetch**",
   "main": "lib/index.js",
   "types": "lib",

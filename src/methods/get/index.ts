@@ -23,5 +23,6 @@ export async function get<T>(url: string, params?: Params) {
   const res = await fetch(link.href)
   const parsedRes: T = await res.json()
 
+  if (!res.ok) throw new Error(`HTPP GET ERROR CODE: ${res.status}`)
   return parsedRes
 }
