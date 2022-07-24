@@ -21,4 +21,12 @@ Install my-project with npm
   // chat.get(url, queryParams)
   chad.get("https://rickandmortyapi.com/api/character", { page: 1 })
       .then(res => console.log(res))
+
+
+  // chat.post(url, data) | currently only supports objects  
+  chat.post('https://jsonplaceholder.typicode.com/posts', {
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+  }).then(res => console.log(res))
 ```
