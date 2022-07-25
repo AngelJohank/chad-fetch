@@ -1,13 +1,18 @@
 {
   "name": "chad-fetch",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A **Giga Chad** version of **fetch**",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
     "build": "tsc -p ."
   },
-  "keywords": [],
+  "keywords": [
+    "http client",
+    "http",
+    "fetch",
+    "browser"
+  ],
   "author": "Angel Johank",
   "license": "ISC",
   "devDependencies": {
